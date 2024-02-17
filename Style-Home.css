@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------------------HEADER----------------------------*/
+header{
+    padding: 2rem;
+}
+
+.logo_page{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo_page:active{
+    width: 21%;
+}
+
+.titles_home{
+    color: darkslategray;
+    display: inline-block;
+}
+
+.titles_home:hover{
+    color: cadetblue;
+}
+
+.titlehomeone{
+    font-size: 6rem;
+}
+
+
+.titlehometwo{
+    font-size: 4rem;
+}
+
+.navigator{
+    margin-top: 4rem;
+    text-align: end;
+}
+
+.navigator li{
+    margin-right: 2rem;
+    display: inline-block;
+    min-height: 2rem;
+}
+
+.navigator a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+}
+
+.navigator a:hover{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+/*---------------------------BODY----------------------------*/
+
+.contenido_text{
+    padding: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: rgb(230, 233, 233);
+}
+
+.textoprincipal{
+    font-size: 3rem;
+    color: rgb(66, 75, 75);
+}
+
+.parrafoUno{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.parrafoDos{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.parrafoDos strong{
+    color: rgb(216, 132, 93);
+}
+
+.parrafoTres{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.textoDiferenciales{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.listaDiferenciales{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8rem;
+}
+
+.listaDiferenciales li{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+/*
+.diferenciales-img{
+}*/
+
+
+/*------------------------FOOTER----------------------------*/
+
+footer{
+    margin-top: 2rem;
+    background-color: darkgrey;
+    height: 160px;
+}
